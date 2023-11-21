@@ -1,0 +1,46 @@
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 46%;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1%;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.squarered{
+    background-color: red;
+}
+
+.squaregreen{
+    background-color: green;
+}
+
+.squareviolet{
+    background-color: blueviolet;
+}
