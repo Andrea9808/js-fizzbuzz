@@ -11,16 +11,17 @@ h1{
 }
 
 .container{
+    width: 55%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 46%;
     justify-content: center;
     margin: 0 auto;
     gap: 1%;
 }
 
 .square{
+    width: calc(100%/7);
     display: flex;
     justify-content: center;
     align-items: center;
